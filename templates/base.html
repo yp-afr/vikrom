@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zxx">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<!-- SITE TITLE -->
+		<title>Nusrat - One Page Personal Portfolio Template</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800" rel="stylesheet">
+		<link href="{{url_for('static', filename='fonts/font-awesome.min.css')}}" rel="stylesheet"/>
+		<link rel="icon" href="{{url_for('static', filename='images/favicon.jpg')}}"/>
+		<link href="{{url_for('static', filename='fonts/themify-icons.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static', filename='fonts/etline.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static', filename='css/plugins.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static', filename='css/lightbox.min.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static', filename='css/responsive.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static', filename='css/style-dark.css')}}" rel="stylesheet"/>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+<body data-spy="scroll" data-offset="80">
+{% block content %}123{% endblock %}
+
+<script src="js/jquery.min.js"></script>
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/modernizr-2.8.3.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.nav.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.inview.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/isotope.pkgd.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/animated-headline.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.stellar.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/form-contact.js')}}"></script>
+<script src="{{url_for('static', filename='js/scrolltopcontrol.js')}}"></script>
+<script src="{{url_for('static', filename='js/wow.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/main.js')}}"></script>
+<script id="widget-wfp-script" language="javascript" type="text/javascript" src="https://secure.wayforpay.com/server/pay-widget.js"></script>
+<script>
+    var wayforpay = new Wayforpay();
+var pay = function () {
+wayforpay.run({
+merchantAccount : "viktoriaromaniuk_com1",
+merchantDomainName : "http://viktoriaromaniuk.com/youbrand",
+authorizationType : "SimpleSignature",
+merchantSignature : "b95932786cbe243a76b014846b63fe92",
+orderReference : "45345",
+orderDate : "1415379863",
+amount : "1547.36",
+currency : "UAH",
+productName : "Процессор Intel Core i5-4670 3.4GHz",
+productPrice : "1000",
+productCount : "1",
+clientFirstName : "Вася",
+clientLastName : "Васечкин",
+clientEmail : "some@mail.com",
+clientPhone: "380631234567",
+language: "UA"
+},
+function (response) {
+// on approved
+},
+function (response) {
+// on declined
+},
+function (response) {
+// on pending or in processing
+}
+);
+}
+</script>
+</body>
+</html>
