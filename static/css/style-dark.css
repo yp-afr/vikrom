@@ -253,13 +253,13 @@ a:hover{
 
 /* Start Section-Padding */
 .section_padding{
-	padding: 80px 0;
+	padding: 40px 0;
 }
 /* End Section-Padding */
 
 /* Start Section-Heading */
 .section_heading{
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 .section_heading h2 {
     font-size: 40px;
@@ -285,7 +285,6 @@ a:hover{
     display: block;
     height: 2px;
     width: 70px;
-    margin-bottom: 15px;
     bottom: -5px;
     position: relative;
     left: 50%;
@@ -373,6 +372,25 @@ a:hover{
     width: 100%;
     z-index: 999;
 }
+
+#prog_list_prev{
+    font-size: 18px; line-height: 1.5;
+}
+
+#prog_list_prev > li:before{
+    font-size: 24px;
+   content: "•"; color: #f3bc17;
+}
+
+
+
+#prog_list_prev > li > span {
+     position: relative;
+      left: 10px;
+    font-size: 18px;
+}
+
+
 .navbar-brand p{
     font-size: 28px;
     font-weight: 700;

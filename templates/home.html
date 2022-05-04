@@ -14,35 +14,36 @@
     <header class="header_area">
         <div class="main_header navbar navbar-default menu-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-sm-2 col-xs-4">
-                        <div class="logo">
-                            <a href="/" class="navbar-brand"><p>Интенсив</p></a>
-                            <div class="mobile-nav"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-10 col-sm-10 col-xs-8">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="fa fa-navicon"></span>
-                            </button>
-                        </div>
-
-                        <nav id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#home">Главная</a></li>
-                                <li><a href="#for">Для кого</a></li>
-                                <li><a href="#results">Результаты учеников</a></li>
-                                <li><a href="#prog">Программа</a></li>
-                                <li><a href="#tariffs">Тарифы</a></li>
-                                <li><a href="#about">Обо мне</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                {#                <div class="row">#}
+                {#                    <div class="col-md-2 col-sm-2 col-xs-4">#}
+                {#                        <div class="logo">#}
+                {#                            <a href="/" class="navbar-brand"><p>Интенсив</p></a>#}
+                {#                            <div class="mobile-nav"></div>#}
+                {#                        </div>#}
+                {#                    </div>#}
+                {##}
+                {#                    <div class="col-md-10 col-sm-10 col-xs-8">#}
+                {#                        <div class="navbar-header">#}
+                {#                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"#}
+                {#                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">#}
+                {#                                <span class="fa fa-navicon"></span>#}
+                {#                            </button>#}
+                {#                        </div>#}
+                {##}
+                {#                        <nav id="navbar" class="navbar-collapse collapse">#}
+                {#                            <ul class="nav navbar-nav navbar-right">#}
+                {#                                <li><a href="#home">Главная</a></li>#}
+                {#                                <li><a href="#for">Для кого</a></li>#}
+                {#                                <li><a href="#results">Результаты учеников</a></li>#}
+                {#                                <li><a href="#prog">Программа</a></li>#}
+                {#                                <li><a href="#tariffs">Тарифы</a></li>#}
+                {#                                <li><a href="#about">Обо мне</a></li>#}
+                {##}
+                {#                            </ul>#}
+                {#                        </nav>#}
+                {#                        <h2><i class="fa fa-support"></i></h2>#}
+                {#                    </div>#}
+                {#                </div>#}
             </div><!--- END CONTAINER -->
         </div>
     </header>
@@ -54,9 +55,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
+                    <br><br><br><br>
                     <div class="banner_content">
                         <h3>Интенсив по продажам</h3>
-                        <h2 style="color: white">Как вернуть доход и получить клиентов за 2 недели</h2>
+                        <h2 style="color: white">Как вернуть доход <br>и получить клиентов <br>за 2 недели</h2>
 
                         <a href="#buy" class="button" onclick="pay()">Купить</a>
                     </div>
@@ -73,7 +75,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
 
                     <h2 style="color: white;">Какие проблемы решишь:</h2><br><br>
-                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                    <div class="row fa-align-center" style="margin-bottom: 40px">
                         <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
                                                                      src="{{ url_for('static',filename="images/check2.png") }}">
                         </div>
@@ -81,7 +83,7 @@
                             клиентов очень мало
                         </div>
                     </div>
-                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                    <div class="row fa-align-center" style="margin-bottom: 40px">
                         <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
                                                                      src="{{ url_for('static',filename="images/check2.png") }}">
                         </div>
@@ -89,7 +91,7 @@
                             с блога, клиенты были, теперь стало сложно, никто не реагирует
                         </div>
                     </div>
-                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                    <div class="row fa-align-center" style="margin-bottom: 40px">
                         <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
                                                                      src="{{ url_for('static',filename="images/check2.png") }}">
                         </div>
@@ -98,7 +100,7 @@
                             консультации, марафоны, курсы
                         </div>
                     </div>
-                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                    <div class="row fa-align-center" style="margin-bottom: 0px">
                         <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
                                                                      src="{{ url_for('static',filename="images/check2.png") }}">
                         </div>
@@ -108,13 +110,7 @@
                     </div>
 
                     {#<hr style="background-color:#f3bc17; color: #f3bc17;height:2px;border-width:0;"><p style="color: white">#}
-                    <p style="color: white; margin-top: 50px; border-left: 2px solid #f3bc17; padding-left: 20px">
-                        какой продукт создать?<br>
-                        как адаптировать под новые реалии?<br>
-                        как подвести к продажам?<br>
-                        как строить прогрев, чтобы это восприняли нормально?<br>
-                        что показывать в сториз и постах?<br>
-                        сколько дней продавать, чтобы набрать нужное к-во клиентов?</p>
+
                 </div>
 
 
@@ -128,8 +124,9 @@
         <div class="container">
             <div class="col-md-12 col-sm-12-col-xs-12">
                 <div class="section_heading text-center">
-                    <h2><span style="">Кому подойдет</span></h2>
-                    <h4 style="color: white">Фрилансеры и эксперты, которые хотят продавать свои консультации, <br>услуги
+                    <h2><span>Кому <span style="text-transform: lowercase">подойдет</span></span></h2>
+                    <h4 style="color: white; line-height: 1.5">Фрилансерам и экспертам, которые хотят продавать свои
+                        консультации, <br>услуги
                         и инфопродукты с блога в Инстаграм</h4>
                     <div class="sm_border"></div>
                 </div>
@@ -141,8 +138,9 @@
                             <div class="col-md-12">
                                 <div class="single_resume">
                                     <p style="color:white; font-size: 18px">Психологи, коучи, врачи, нутрициологи,
-                                        тренера,
-                                        йога-тренера, астрологи и другие помогающие профессии</p>
+                                        тренера, йога-тренера, нумерологи, астрологи, наставники по духовному развитию и
+                                        другие помогающие профессии
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-md-12">
@@ -156,9 +154,8 @@
                             <div class="col-md-12">
                                 <div class="single_resume">
 
-                                    <p style="color:white;font-size: 18px">Диджитал-эксперты: таргетологи, сммщики
-                                        наставники,
-                                        маркетологи, продажники</p>
+                                    <p style="color:white;font-size: 18px">Диджитал-эксперты: таргетологи,
+                                        смм-специалисты, наставники, маркетологи, эксперты по продажам</p>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +235,7 @@
 
     <section id="prog" class="dark_bg section_padding">
         <div class="container">
-            <div class="row">
+            <div class="row row-eq-height">
                 <div class="col-md-12 col-sm-12-col-xs-12">
                     <div class="section_heading text-center">
                         <h2>Программа <span style="text-transform: lowercase">интенсива</span></h2>
@@ -247,17 +244,23 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="single-service wow fadeInDown" style="text-align: left; color:white" data-wow-delay="0.3s">
-                            3 дня - 3 урока в записи длительностью 1 час + план прогрева и продаж на 2 недели, расписанный по дням что показывать в сториз, постах, эфирах с реальными примерами внедрения.
-
-<br>Вы получите пошаговую инструкцию к запуску продаж услуг, инфопродуктов без воды и мотивашек. Смотрите - делаете - получаете клиентов за 1-2 недели.
+                        <div class="single-service wow fadeInDown" style="text-align: left; color:white"
+                             data-wow-delay="0.3s">
+                            <ul id="prog_list_prev">
+                                <li><span>3 дня - 3 урока в записи длительностью 1 час</span></li>
+                                <li><span>План прогрева и продаж на 2 недели с реальными примерами внедрения</span></li>
+                                <li><span>Вы получите пошаговую инструкцию к запуску продаж услуг, инфопродуктов без воды и
+                                    мотивашек</span></li>
+                                <li><span>Смотрите - делаете - получаете клиентов за 1-2 недели</span></li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-service wow fadeInDown" style="text-align: left;color: white !important;"
                              data-wow-delay="0.3s">
                             <center><h2 style="color: #f3bc17">День 1</h2>
-                                <p>Система продаж в блоге + Анализ целевой аудитории</p></center>
+                                <p style="font-size: 18px">Система продаж в блоге + Анализ целевой аудитории</p>
+                            </center>
                             <br>
                             <ul id="prog_list">
                                 <li>5 шагов для системных продаж в блоге</li>
@@ -267,29 +270,25 @@
                                 <li>Где искать людей для анализа аудитории, список вопросов для анализа ЦА</li>
                                 <li>Как еще на этапе анализа ЦА закрыть первых клиентов</li>
                             </ul>
+
                             <br>
-                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
-                                       onclick="$('#day1_bonus').slideDown('slow');"></i></center>
-                            <br>
-                            <p id="day1_bonus"
-                               style="display:none; padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
-                                карта актуальных запросов для разных ниш из разных сфер жизни, за что люди сейчас готовы
-                                вам платить<br><br> реальные примеры как подавать свои продукты и услуги экспертам из
-                                разных ниш (психология, нумерология, преподаватели, тренера, диджитал и т.д)</p>
+                            <h3 style="color: #f3bc17">Бонус</h3>
+                            <p style=" padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                Карта актуальных запросов для разных ниш из разных сфер жизни, за что люди сейчас готовы
+                                вам платить</p>
                             <br><br>
-                            <center>
-                                <div style="color: white; background-color:rgb(37, 150, 190); opacity: 0.5; padding: 15px; border-radius: 15px">
-                                    поймёте за что ваши клиенты готовы платить, какие у них есть сомнения и как их
-                                    закрыть, как через контент донести ценность своих услуг/продуктов
-                                </div>
-                            </center>
+                            <h3 style="color: #f3bc17">Результат:</h3>
+                            <p style="">
+                                Поймёте за что ваши клиенты готовы платить, какие у них есть сомнения и как их
+                                    закрыть, как через контент донести ценность своих услуг/продуктов</p>
+
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-service wow fadeInDown" style="text-align: left; color:white"
                              data-wow-delay="0.3s">
                             <center><h2 style="color: #f3bc17">День 2</h2>
-                                <p>Создание и адаптация услуг, инфопродуктов</p></center>
+                                <p style="font-size: 18px">Создание и адаптация услуг, инфопродуктов</p></center>
                             <br>
 
                             <ul id="prog_list">
@@ -304,27 +303,21 @@
                                 </li>
                             </ul>
                             <br>
-                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
-                                       onclick="$('#day2_bonus').slideDown('slow');"></i></center>
-                            <br>
-                            <p id="day2_bonus"
-                               style="display:none;padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
-                                реальные примеры продуктов для первых продаж и допродаж экспертам из разных ниш</p>
+                            <h3 style="color: #f3bc17">Бонус</h3>
+                            <p style=" padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                Реальные примеры продуктов для первых продаж и допродаж экспертам из разных ниш</p>
                             <br><br>
-                            <center>
-                                <div style="color: white; background-color:rgb(37, 150, 190); padding: 15px; border-radius: 15px">
-                                    создадите или адаптируете продукт, который реально будет нужен вашей аудитории, его
-                                    будут ждать, просить, покупать
-                                </div>
-                            </center>
-
-
+                            <h3 style="color: #f3bc17">Результат:</h3>
+                            <p style="">
+                                Создадите или адаптируете продукт, который реально будет нужен вашей аудитории, его
+                                    будут ждать, просить, покупать</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInDown" style="text-align: left; color:white" data-wow-delay="0.3s">
+                        <div class="single-service wow fadeInDown" style="text-align: left; color:white"
+                             data-wow-delay="0.3s">
                             <center><h2 style="color: #f3bc17">День 3</h2>
-                                <p>Адекватные и честные прогревы и продажи</p></center>
+                                <p style="font-size: 18px">Адекватные и честные прогревы и продажи</p></center>
                             <br>
                             <ul id="prog_list">
                                 <li>Как продавать экологично и честно, чтобы люди сейчас нормально реагировали</li>
@@ -336,28 +329,16 @@
                                 <li>Какая длительность прогрева и продаж, как подводить к продажам, когда заканчивать,
                                     как часто повторять.
                                 </li>
-                                <li>Как делать прогревы и продажи в зависимости от вашего опыта, к-ва подписчиков в
-                                    блоге и активности.
-                                </li>
-                                <li>Как продавать, если нет много опыта и кейсов. Как продавать опытным экспертам</li>
                             </ul>
                             <br>
-                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
-                                       onclick="$('#day3_bonus').slideDown('slow');"></i></center>
-                            <br>
-                            <p id="day3_bonus"
-                               style="display:none;padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
-                                План прогрева и продаж на 1-2 недели, расписанный по дням под сториз, посты, эфиры
-                                <br><br>Реальные примеры сториз, как внедрять прогрев и раскладывать смыслы по сториз в
-                                течении дня
-                            </p>
+                            <h3 style="color: #f3bc17">Бонус</h3>
+                            <p style=" padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                 План прогрева и продаж на 1-2 недели, расписанный по дням под сториз, посты, эфиры</p>
                             <br><br>
-                            <center>
-                                <div style="color: white; background-color:rgb(37, 150, 190); padding: 15px; border-radius: 15px">
-                                    Запустите продажи своей услуги, инфопродукта, возьмёте клиентов и заработаете деньги
-                                    уже за 1-2 недели
-                                </div>
-                            </center>
+                            <h3 style="color: #f3bc17">Результат:</h3>
+                            <p style="">
+                                Запустите продажи своей услуги, инфопродукта, возьмёте клиентов и заработаете деньги
+                                    уже за 1-2 недели</p>
 
 
                         </div>
@@ -410,55 +391,28 @@
         <div class="container">
             <div class="col-md-12 col-sm-12-col-xs-12">
                 <div class="section_heading text-center">
-                    <h2>Тарифы</h2>
+                    <h2>Тариф</h2>
 
                     <div class="sm_border"></div>
                 </div>
             </div>
 
             <div class="row text-center">
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="single-service wow fadeInDown" style="text-align: left" data-wow-delay="0.3s">
                         {#								<i class="fa fa-sliders"></i>#}
-                        <center><h3 style="color: white">Тариф | <span style="color: orange">Cтандарт</span></h3>
+                        <center><h3 ><span style="color: #f3bc17">Cтандарт</span></h3>
                         </center>
-                        <P>- Два вебинара в записи<br>- Дополнительные материалы с планом прогрева и продаж на 2 недели
-                            <br>- Возможность задать вопросы по программе вебинаров в канале Интенсива
-                        </P><br>
-                        <p style="font-size: 18px">Стоимость: 950 грн.</p>
+                        <ul id="prog_list_prev" style="color: white; font-size: 18px">
+                                <li><span>3 дня - 3 урока в записи длительностью 1 час</span></li>
+                                <li><span>План прогрева и продаж на 2 недели с реальными примерами внедрения</span></li>
+                                <li><span>Вы получите пошаговую инструкцию к запуску продаж услуг, инфопродуктов без воды и
+                                    мотивашек</span></li>
+                                <li><span>Смотрите - делаете - получаете клиентов за 1-2 недели</span></li>
+                            </ul>
                         <center>
-                            <a href="#buy" class="button">Купить</a></center>
+                            <a href="#buy" class="button">Купить | 1690 грн.</a></center>
 
-                    </div>
-                </div> <!-- End Col -->
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-service wow fadeInDown" style="text-align: left" data-wow-delay="0.3s">
-                        <center><h3 style="color: white">Тариф | <span style="color: orange">Личный разбор</span></h3>
-                        </center>
-                        <P>- Два вебинара в записи<br>
-                            - Дополнительные материалы с планом прогрева и продаж на 2 недели<br>
-                            - Возможность задать вопросы по программе вебинаров в канале Интенсива<br><br>
-                            <span style="color:#f3bc17">+ Индивидуальная консультация</span><br>
-                            <br>
-                            ❗️Этот тариф для тех, кто хочет сразу приступить к действиям и проработать все нюансы лично
-                            с Викторией<br>
-                            <br>
-                            На консультации длительностью 1.5-2 часа мы проработаем конкретно вашу ситуацию:<br>
-                            - создание и наполнение продукта<br>
-                            - адаптацию прогрева и продаж лично под вашу ситуацию, жизнь, опыт и ваш блог<br>
-                            - вашу личную стратегию развития на ближайшие несколько месяцев<br>
-                            - либо любой другой запрос, который вы хотите разобрать<br>
-                            <br>
-                            - если вы сразу внедряете прогрев после консультации - я просматриваю ваши сториз в течении
-                            1-2 дней и делаю разбор, докручиваю, даю рекомендации<br>
-                            <br>
-                            - после консультации отвечаю на вопросы в течении недели<br>
-
-
-                        </P><br>
-                        <p style="font-size: 18px">Стоимость: 4500 грн.</p>
-                        <center>
-                            <a href="#buy" class="button">Купить</a></center>
                     </div>
                 </div> <!-- End Col -->
 
