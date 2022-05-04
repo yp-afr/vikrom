@@ -28,7 +28,7 @@
 <body data-spy="scroll" data-offset="80">
 {% block content %}123{% endblock %}
 
-<script src="js/jquery.min.js"></script>
+<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
 <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
 <script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
 <script src="{{url_for('static', filename='js/modernizr-2.8.3.min.js')}}"></script>

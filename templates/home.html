@@ -15,7 +15,12 @@
         <div class="main_header navbar navbar-default menu-top">
             <div class="container">
                 <div class="row">
-
+                    <div class="col-md-2 col-sm-2 col-xs-4">
+                        <div class="logo">
+                            <a href="/" class="navbar-brand"><p>Интенсив</p></a>
+                            <div class="mobile-nav"></div>
+                        </div>
+                    </div>
 
                     <div class="col-md-10 col-sm-10 col-xs-8">
                         <div class="navbar-header">
@@ -50,8 +55,8 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="banner_content">
-                        <h3>Интенсив</h3>
-                        <h2 style="color: white">Как вернуть доход и получить клиентов<br>за 2 недели</h2>
+                        <h3>Интенсив по продажам</h3>
+                        <h2 style="color: white">Как вернуть доход и получить клиентов за 2 недели</h2>
 
                         <a href="#buy" class="button" onclick="pay()">Купить</a>
                     </div>
@@ -67,25 +72,49 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
 
-                    <span style="color: white; font-size: 24px">На своём 2-х дневном интенсиве по адекватным продажам я собрала ответы на вопросы:</span><br><br>
-                    <p style="color: white; font-size: 18px; border-left: 2px solid #f3bc17; padding-left: 20px">
-                        <br>как адекватно продавать в такое время, чтобы не задеть чувства других?<br>
-                        <br>как понять аудиторию, какие сейчас продукты и услуги реально нужны, как их адаптировать?<br>
-                        <br>с чего начать прогрев, как подвести к продажам, в каком порядке и что именно показывать в
-                        постах и сториз, как долго вести продажи?<br>
-                        <br>что делать, если аудитория не реагирует сейчас и продажи упали?<br>ЦА поменялась, тех, кто
-                        покупали раньше, больше нет в блоге, как набирать сейчас аудиторию?<br></p>
-                    {#<hr style="background-color:#f3bc17; color: #f3bc17;height:2px;border-width:0;"><p style="color: white">#}
-                </div>
-
-                <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 50px">
-                    <div class="single-service wow fadeInDown" style="color: white; text-align: left" data-wow-delay="0.3s">
-                        <br>Также, вы получите план действий по адаптации, созданию продуктов и услуг, прогревам и
-                        продажам.
-                        <br>План прогрева по дням на 2 недели, что конкретно показывать в сториз, постах, эфирах от
-                        начала прогрева и до закрытия продаж.
-                        <br>РЕЗУЛЬТАТ ПОСЛЕ ВНЕДРЕНИЯ: вернете доход и получите клиентов за 2 недели.
+                    <h2 style="color: white;">Какие проблемы решишь:</h2><br><br>
+                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                        <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
+                                                                     src="{{ url_for('static',filename="images/check2.png") }}">
+                        </div>
+                        <div class="col-xs-10 col-sm-8 col-md-11" style="color: white;font-size: 18px;">нет продаж либо
+                            клиентов очень мало
+                        </div>
                     </div>
+                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                        <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
+                                                                     src="{{ url_for('static',filename="images/check2.png") }}">
+                        </div>
+                        <div class="col-xs-10 col-sm-8 col-md-11" style="color: white;font-size: 18px;">раньше продавала
+                            с блога, клиенты были, теперь стало сложно, никто не реагирует
+                        </div>
+                    </div>
+                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                        <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
+                                                                     src="{{ url_for('static',filename="images/check2.png") }}">
+                        </div>
+                        <div class="col-xs-10 col-sm-8 col-md-11" style="color: white;font-size: 18px;">в голове хаос,
+                            ведешь блог интуитивно, продажи нерегулярные, не получается набирать достаточно людей на
+                            консультации, марафоны, курсы
+                        </div>
+                    </div>
+                    <div class="row fa-align-center" style="margin-bottom: 15px">
+                        <div class="col-xs-2 col-sm-4 col-md-1"><img width="30px"
+                                                                     src="{{ url_for('static',filename="images/check2.png") }}">
+                        </div>
+                        <div class="col-xs-10 col-sm-8 col-md-11" style="color: white;font-size: 18px;"> хочешь
+                            запустить продажи услуг, инфопродукта с блога, но не знаешь алгоритма действий
+                        </div>
+                    </div>
+
+                    {#<hr style="background-color:#f3bc17; color: #f3bc17;height:2px;border-width:0;"><p style="color: white">#}
+                    <p style="color: white; margin-top: 50px; border-left: 2px solid #f3bc17; padding-left: 20px">
+                        какой продукт создать?<br>
+                        как адаптировать под новые реалии?<br>
+                        как подвести к продажам?<br>
+                        как строить прогрев, чтобы это восприняли нормально?<br>
+                        что показывать в сториз и постах?<br>
+                        сколько дней продавать, чтобы набрать нужное к-во клиентов?</p>
                 </div>
 
 
@@ -99,9 +128,9 @@
         <div class="container">
             <div class="col-md-12 col-sm-12-col-xs-12">
                 <div class="section_heading text-center">
-                    <h2>Для <span style="text-transform: lowercase">кого</span></h2>
-                    <h3 style="color: white">Интенсив будет полезен фрилансерам и экспертам в разных нишах<br>с опытом
-                        работы от 1 года.</h3>
+                    <h2><span style="">Кому подойдет</span></h2>
+                    <h4 style="color: white">Фрилансеры и эксперты, которые хотят продавать свои консультации, <br>услуги
+                        и инфопродукты с блога в Инстаграм</h4>
                     <div class="sm_border"></div>
                 </div>
             </div>
@@ -111,29 +140,25 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="single_resume">
-                                    <h4 style="color:white">Психологи, коучи, врачи, нутрициологи, тренера,
-                                        йога-тренера, астрологи и другие помогающие профессии</h4>
+                                    <p style="color:white; font-size: 18px">Психологи, коучи, врачи, нутрициологи,
+                                        тренера,
+                                        йога-тренера, астрологи и другие помогающие профессии</p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single_resume">
 
-                                    <h4 style="color:white">Эксперты в сферах финансов, hr-специалисты, преподаватели
-                                        языков и другие твердые ниши</h4>
+                                    <p style="color:white; font-size: 18px">Эксперты в сферах финансов, hr-специалисты,
+                                        преподаватели
+                                        языков и другие твердые ниши</p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single_resume">
 
-                                    <h4 style="color:white">Диджитал-эксперты: таргетологи, сммщики наставники,
-                                        маркетологи, продажники</h4>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="single_resume">
-
-                                    <h4 style="color:white">Все кто консультирует в какой-либо сфере и запускал свои
-                                        инфопродукты</h4>
+                                    <p style="color:white;font-size: 18px">Диджитал-эксперты: таргетологи, сммщики
+                                        наставники,
+                                        маркетологи, продажники</p>
                                 </div>
                             </div>
                         </div>
@@ -222,63 +247,124 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="single-service wow fadeInDown" style="color: white" data-wow-delay="0.3s">
-                            Вас ждет записи 2 вебинаров, длительностью 2.5 часа каждый.<br>Вы можете смотреть их в
-                            подходящем темпе и когда вам удобно, не нужно никого ждать и ни под кого подстраиваться.
+                        <div class="single-service wow fadeInDown" style="text-align: left; color:white" data-wow-delay="0.3s">
+                            3 дня - 3 урока в записи длительностью 1 час + план прогрева и продаж на 2 недели, расписанный по дням что показывать в сториз, постах, эфирах с реальными примерами внедрения.
+
+<br>Вы получите пошаговую инструкцию к запуску продаж услуг, инфопродуктов без воды и мотивашек. Смотрите - делаете - получаете клиентов за 1-2 недели.
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single-service wow fadeInDown" style="text-align: left;color: white !important;"
                              data-wow-delay="0.3s">
-                            <h2 style="color: white">Вебинар 1</h2><br>
-                            <span style="color: #f3bc17">Кому продавать?</span>
-                            <p style="border-left: 2px solid #f3bc17; padding-left: 20px">Как проанализировать
-                                ЦА<br><br>Как быстро понять актуальные потребности аудитории, чтобы не работать
-                                бесплатно, а сделать свой продукт востребованным</p>
+                            <center><h2 style="color: #f3bc17">День 1</h2>
+                                <p>Система продаж в блоге + Анализ целевой аудитории</p></center>
                             <br>
-                            <span style="color: #f3bc17">Что продавать?</span>
-                            <p style="border-left: 2px solid #f3bc17; padding-left: 20px">Адаптация продуктов и услуг,
-                                которые принесут максимальный результат клиентам<br><br>
-                                Как наполнять продукт, форматы, длительность, чем наполнять<br><br>
-                                Как доносить ценность продукта/услуги, через какие посылы сейчас продавать<br><br>
-                                Продуктовая линейка и допродажи<br><br>
-                            </p>
-                            <p>+ Как вернуться в блог и логично перейти к продажам, если до этого вы выпали либо
-                                постилки только новости<br>+ Ответы на ваши вопросы и четкий план что делать пошагово
-                                после просмотра вебинара.</p>
+                            <ul id="prog_list">
+                                <li>5 шагов для системных продаж в блоге</li>
+                                <li>Как понять актуальные потребности аудитории, чтобы адаптировать продукт и увеличить
+                                    продажи
+                                </li>
+                                <li>Где искать людей для анализа аудитории, список вопросов для анализа ЦА</li>
+                                <li>Как еще на этапе анализа ЦА закрыть первых клиентов</li>
+                            </ul>
+                            <br>
+                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
+                                       onclick="$('#day1_bonus').slideDown('slow');"></i></center>
+                            <br>
+                            <p id="day1_bonus"
+                               style="display:none; padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                карта актуальных запросов для разных ниш из разных сфер жизни, за что люди сейчас готовы
+                                вам платить<br><br> реальные примеры как подавать свои продукты и услуги экспертам из
+                                разных ниш (психология, нумерология, преподаватели, тренера, диджитал и т.д)</p>
+                            <br><br>
+                            <center>
+                                <div style="color: white; background-color:rgb(37, 150, 190); opacity: 0.5; padding: 15px; border-radius: 15px">
+                                    поймёте за что ваши клиенты готовы платить, какие у них есть сомнения и как их
+                                    закрыть, как через контент донести ценность своих услуг/продуктов
+                                </div>
+                            </center>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="single-service wow fadeInDown" style="text-align: left" data-wow-delay="0.3s">
-                            <h2 style="color: white">Вебинар 2</h2><br>
-                            <span style="color: #f3bc17">Как этично продавать сейчас?</span>
-                            <p style="border-left: 2px solid #f3bc17; padding-left: 20px">Как правильно доносить
-                                ценность продуктов и услуг, чтобы люди реально были готовы покупать и платить <br><br>Как
-                                спланировать прогрев, поэтапность прогрева и продаж, примеры внедрения в сториз
-                                <br><br>Как закрывать сомнения и возражения
-                                <br><br>План прогрева и продаж на 1-2 недели (на сториз, посты, эфиры), с разными
-                                адаптациями в зависимости от вашей ситуации</p>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-service wow fadeInDown" style="text-align: left; color:white"
+                             data-wow-delay="0.3s">
+                            <center><h2 style="color: #f3bc17">День 2</h2>
+                                <p>Создание и адаптация услуг, инфопродуктов</p></center>
                             <br>
-                            <span style="color: #f3bc17">Как продвигаться и привлечь новую ЦА?</span>
-                            <p style="border-left: 2px solid #f3bc17; padding-left: 20px">Адаптация продуктов и услуг,
-                                которые принесут максимальный результат клиентам<br><br>
-                                Как адаптировать сейчас рекламу, какие посылы и тезисы использовать<br><br>
-                                Как продвигаться бесплатными методами и делать из подписчиков сразу клиентов. Реальные
-                                примеры<br><br>
-                                Как самостоятельно запустить таргет, чтобы привлечь новых клиентов<br><br>
+
+                            <ul id="prog_list">
+                                <li>Какой продукт/услугу создать, исходя из вашего опыта и к-ва подписчиков в блоге</li>
+                                <li>Как и чем наполнить свой продукт, чтобы он приносил результат клиентам, какой
+                                    выбрать формат и длительность
+                                </li>
+                                <li> Как делать допродажи, какой продукт, услугу допродавать, чтобы один клиент платил
+                                    вам несколько раз
+                                </li>
+                                <li> Как описать, упаковать и презентовать продукт, чтобы клиенты сами хотели купить
+                                </li>
+                            </ul>
+                            <br>
+                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
+                                       onclick="$('#day2_bonus').slideDown('slow');"></i></center>
+                            <br>
+                            <p id="day2_bonus"
+                               style="display:none;padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                реальные примеры продуктов для первых продаж и допродаж экспертам из разных ниш</p>
+                            <br><br>
+                            <center>
+                                <div style="color: white; background-color:rgb(37, 150, 190); padding: 15px; border-radius: 15px">
+                                    создадите или адаптируете продукт, который реально будет нужен вашей аудитории, его
+                                    будут ждать, просить, покупать
+                                </div>
+                            </center>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-service wow fadeInDown" style="text-align: left; color:white" data-wow-delay="0.3s">
+                            <center><h2 style="color: #f3bc17">День 3</h2>
+                                <p>Адекватные и честные прогревы и продажи</p></center>
+                            <br>
+                            <ul id="prog_list">
+                                <li>Как продавать экологично и честно, чтобы люди сейчас нормально реагировали</li>
+                                <li>Пошаговый алгоритм постоянных продаж в блоге, и продаж инфопродуктов через запуски
+                                </li>
+                                <li>Этапы создания прогрева: как планировать, чем наполнять, как внедрять в сториз,
+                                    постах, эфирах, телеграм-канале
+                                </li>
+                                <li>Какая длительность прогрева и продаж, как подводить к продажам, когда заканчивать,
+                                    как часто повторять.
+                                </li>
+                                <li>Как делать прогревы и продажи в зависимости от вашего опыта, к-ва подписчиков в
+                                    блоге и активности.
+                                </li>
+                                <li>Как продавать, если нет много опыта и кейсов. Как продавать опытным экспертам</li>
+                            </ul>
+                            <br>
+                            <center><i class="fa fa-gift" style="font-size: 46px; width: 70px"
+                                       onclick="$('#day3_bonus').slideDown('slow');"></i></center>
+                            <br>
+                            <p id="day3_bonus"
+                               style="display:none;padding-left: 15px; margin-left: 5px; border-left: 2px solid #f3bc17">
+                                План прогрева и продаж на 1-2 недели, расписанный по дням под сториз, посты, эфиры
+                                <br><br>Реальные примеры сториз, как внедрять прогрев и раскладывать смыслы по сториз в
+                                течении дня
                             </p>
-                            <p>+ Ответы на ваши вопросы и четкий план что делать пошагово после просмотра вебинара.</p>
+                            <br><br>
+                            <center>
+                                <div style="color: white; background-color:rgb(37, 150, 190); padding: 15px; border-radius: 15px">
+                                    Запустите продажи своей услуги, инфопродукта, возьмёте клиентов и заработаете деньги
+                                    уже за 1-2 недели
+                                </div>
+                            </center>
+
+
                         </div>
                     </div>
                 </div>
 
             </div>
-            <center><i><p style="color: white">
-                Всю информацию вы получите на реальных примерах в разных нишах и сможете сразу применить на себе.<br>
-                ️В результате, если внедрите все рекомендации и план действий - сможете получить клиентов и вернуть свой
-                доход за ближайшие 2 недели.<br>
-
-                Запись вебинаров и все доп. материалы остаются у вас навсегда.</p></i></center>
         </div>
     </section>
     <!-- END BLOG -->
