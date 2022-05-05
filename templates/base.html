@@ -1,47 +1,46 @@
 <!doctype html>
 <html lang="zxx">
-	<head>
-		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<!-- SITE TITLE -->
-		<title>{% block title %}{% endblock %}</title>
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- SITE TITLE -->
+    <title>{% block title %}{% endblock %}</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800" rel="stylesheet">
-		<link href="{{url_for('static', filename='fonts/font-awesome.min.css')}}" rel="stylesheet"/>
-		<link rel="icon" href="{{url_for('static', filename='images/fav2.png')}}"/>
-		<link href="{{url_for('static', filename='fonts/themify-icons.css')}}" rel="stylesheet"/>
-		<link href="{{url_for('static', filename='fonts/etline.css')}}" rel="stylesheet"/>
-		<link href="{{url_for('static', filename='css/plugins.css')}}" rel="stylesheet"/>
-		<link href="{{url_for('static', filename='css/lightbox.min.css')}}" rel="stylesheet"/>
-		<link href="{{url_for('static', filename='css/responsive.css')}}" rel="stylesheet"/>
-		<link href="{{url_for('static', filename='css/style-dark.css')}}" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800" rel="stylesheet">
+    <link href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}" rel="stylesheet"/>
+    <link rel="icon" href="{{ url_for('static', filename='images/fav2.png') }}"/>
+    <link href="{{ url_for('static', filename='fonts/themify-icons.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='fonts/etline.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/plugins.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/lightbox.min.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='css/style-dark.css') }}" rel="stylesheet"/>
 
 
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 <body data-spy="scroll" data-offset="80">
 {% block content %}123{% endblock %}
 
-<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/modernizr-2.8.3.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/jquery.nav.js')}}"></script>
-<script src="{{url_for('static', filename='js/jquery.inview.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/isotope.pkgd.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/animated-headline.js')}}"></script>
-<script src="{{url_for('static', filename='js/jquery.stellar.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/form-contact.js')}}"></script>
-<script src="{{url_for('static', filename='js/scrolltopcontrol.js')}}"></script>
-<script src="{{url_for('static', filename='js/wow.min.js')}}"></script>
-<script src="{{url_for('static', filename='js/main.js')}}"></script>
-<script id="widget-wfp-script" language="javascript" type="text/javascript" src="https://secure.wayforpay.com/server/pay-widget.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modernizr-2.8.3.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.nav.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.inview.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/animated-headline.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/form-contact.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scrolltopcontrol.js') }}"></script>
+<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 </body>
 </html>
