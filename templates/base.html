@@ -7,11 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<!-- SITE TITLE -->
-		<title>Nusrat - One Page Personal Portfolio Template</title>
+		<title>{% block title %}{% endblock %}</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800" rel="stylesheet">
 		<link href="{{url_for('static', filename='fonts/font-awesome.min.css')}}" rel="stylesheet"/>
-		<link rel="icon" href="{{url_for('static', filename='images/favicon.jpg')}}"/>
+		<link rel="icon" href="{{url_for('static', filename='images/fav2.png')}}"/>
 		<link href="{{url_for('static', filename='fonts/themify-icons.css')}}" rel="stylesheet"/>
 		<link href="{{url_for('static', filename='fonts/etline.css')}}" rel="stylesheet"/>
 		<link href="{{url_for('static', filename='css/plugins.css')}}" rel="stylesheet"/>
