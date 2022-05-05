@@ -42,38 +42,6 @@
 <script src="{{url_for('static', filename='js/wow.min.js')}}"></script>
 <script src="{{url_for('static', filename='js/main.js')}}"></script>
 <script id="widget-wfp-script" language="javascript" type="text/javascript" src="https://secure.wayforpay.com/server/pay-widget.js"></script>
-<script>
-    var wayforpay = new Wayforpay();
-var pay = function () {
-wayforpay.run({
-merchantAccount : "viktoriaromaniuk_com1",
-merchantDomainName : "http://viktoriaromaniuk.com/youbrand",
-authorizationType : "SimpleSignature",
-merchantSignature : "b95932786cbe243a76b014846b63fe92",
-orderReference : "45345",
-orderDate : "1415379863",
-amount : "1547.36",
-currency : "UAH",
-productName : "Процессор Intel Core i5-4670 3.4GHz",
-productPrice : "1000",
-productCount : "1",
-clientFirstName : "Вася",
-clientLastName : "Васечкин",
-clientEmail : "some@mail.com",
-clientPhone: "380631234567",
-language: "UA"
-},
-function (response) {
-// on approved
-},
-function (response) {
-// on declined
-},
-function (response) {
-// on pending or in processing
-}
-);
-}
-</script>
+
 </body>
 </html>
